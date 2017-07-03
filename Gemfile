@@ -5,6 +5,8 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+gem 'open-weather-api'
+
 gem 'devise', '~> 4.2'
 
 gem 'jquery-rails', '~> 4.3.1'
