@@ -1,4 +1,5 @@
 class Profile < ApplicationRecord
+  
 
   def full_name
   "#{name} #{last_name}"

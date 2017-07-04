@@ -5,8 +5,9 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+gem 'json', '~> 1.8', '>= 1.8.3'
 
-
+gem 'httparty'
 
 gem 'open-weather-api'
 
