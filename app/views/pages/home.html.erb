@@ -1,4 +1,5 @@
 <h1>Forecast for today</h1>
 
-<p><%= "Todays temperature in #{current_user.profile.city} is: #{@forecast.temperature} °C" %> </p>
-<p><%= "Todays temperature in #{@random_user.city} is: #{@forecast_random.temperature} °C" %> </p>
+<p><%= "Todays temperature in your city, #{current_user.profile.city}, is: #{@forecast.temperature} °C" %> </p>
+<p><%= "Todays temperature in #{@random_user.name}'s city, #{@random_user.city}, is: #{@forecast_random.temperature} °C" %> </p>
+<p><%= Forecast.compare(Forecast.weather_formula(@forecast.temperature, @forecast.rain, @forecast.wind), Forecast.weather_formula(@forecast_random.temperature, @forecast_random.rain, @forecast_random.wind), current_user, @random_user) %></p>

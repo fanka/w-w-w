@@ -4,7 +4,7 @@ class RandomUsersController < ApplicationController
   end
 
   def create
-    
+
   end
 
 end
