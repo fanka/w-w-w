@@ -1,9 +1,9 @@
-OpenWeatherAPI.configure do |config|
+OpenWeatherAPI.configure do |open_weather_api|
   # API key
-  config.api_key = "7598b5adbdad089bc78bc4da42b4b8f5"
+  open_weather_api.api_key = "7598b5adbdad089bc78bc4da42b4b8f5"
 
   # Optionals
-  config.default_language = 'en'     # 'en' by default
-  config.default_country_code = 'nl' # nil by default (ISO 3166-1 alfa2)
-  config.default_units = 'metric'    # 'metric' by default
+  open_weather_api.default_language = 'en'     # 'en' by default
+  open_weather_api.default_country_code = 'nl' # nil by default (ISO 3166-1 alfa2)
+  open_weather_api.default_units = 'metric'    # 'metric' by default
 end
