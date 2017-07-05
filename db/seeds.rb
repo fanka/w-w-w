@@ -5,3 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+RandomUser.delete_all
+
+pierre = RandomUser.create(name: "Pierre", city: "Rotterdam")
+amy = RandomUser.create(name: "Amy", city: "Groningen")
