@@ -9,3 +9,9 @@ RandomUser.delete_all
 
 pierre = RandomUser.create(name: "Pierre", city: "Rotterdam")
 amy = RandomUser.create(name: "Amy", city: "Groningen")
+lianne = RandomUser.create(name: "Lianne", city: "Utrecht")
+ann = RandomUser.create(name: "Ann", city: "Zwolle")
+dan = RandomUser.create(name: "Dan", city: "Tilburg")
+brian = RandomUser.create(name: "Brian", city: "Maastricht")
+kevin = RandomUser.create(name: "Kevin", city: "Nejmegen")
+gladys = RandomUser.create(name: "Gladys", city: "Dordrecht")
